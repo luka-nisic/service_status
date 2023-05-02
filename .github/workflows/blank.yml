@@ -23,6 +23,6 @@ jobs:
     steps:
       - name: Check Grafana
         run: |
-          ${{ secrets.GRAFANA-EDIT}}
+          ${{ secrets.GRAFANA_EDIT}}
    
      
