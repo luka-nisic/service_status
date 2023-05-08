@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Set timezone
         run: |
-          timedatectl set-timezone Europe/Belgrade
+          sudo timedatectl set-timezone Europe/Belgrade
       - name: Clean previous runs
         run: |
           ${{ secrets.CLEAN_PREVIOUS_RUNS }}
