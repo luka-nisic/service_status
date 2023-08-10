@@ -28,7 +28,7 @@ jobs:
       - name: Clean previous runs
         run: |
           ${{ secrets.CLEAN_PREVIOUS_RUNS }}
-      - name: Check Grafana
+      - name: Check Grafana v2
         run: |
           ${{ secrets.GRAFANA_EDIT}}
    
