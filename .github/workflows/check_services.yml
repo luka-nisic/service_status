@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "main" ]
   
-  ### Triggers the workflow on a 15 minute interval
+  ### Triggers the workflow on the 15th minute of every hour - 9:15/10:15/11:15 etc
   schedule:
     #- cron: '*/6 * * * *' Old cron
     - cron: '15 */1 * * *'
