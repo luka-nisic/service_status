@@ -4,8 +4,10 @@ This is a repository for checking the status of microservices
 
 ## How it works
 
-Github action should trigger on a 5 minute interval, using "on schedule" event, and it's checking the state of all microservices.
+The process is simple:
 
-After checking, the script sends an action via webhook to Discord, where the messages of the final status are showed in their respectable channel.
+* A GitHub action should be triggered on every 15th minute of every hour.
 
-Updated 10/8/2023
+* After checking, the script sends an action via webhook to Discord, where the messages of the final status are shown in their respectable channel.
+
+***Updated 16/8/2023***
